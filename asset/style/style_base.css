@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=MedievalSharp&display=swap');
+@font-face {
+    font-family: "smallburg";
+    src: url(../font/smallburg-Regular.woff);
+    src: url(../font/smallburg-Regular.ttf) format("truetype"),
+    url(../font/smallburg-Regular.otf) format("opentype");
+}
+
+body{
+    font-family: 'Caudex', serif;
+    background-image: url("../img/background/Paper\ Texture10.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+h1{
+    text-decoration: underline;
+    color: #671414;
+}
+h2{
+    font-weight: bold;
+    color: #400D0D;
+}
+p{
+    color: #330A0A;
+}
