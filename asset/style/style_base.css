@@ -5,6 +5,11 @@
     src: url(../font/smallburg-Regular.ttf) format("truetype"),
     url(../font/smallburg-Regular.otf) format("opentype");
 }
+@font-face {
+    font-family: "daedrique";
+    src: url(../font/daedrique/Daedra.woff);
+    src: url(../font/daedrique/Daedra.otf) format("opentype");
+}
 
 body{
     font-family: 'Caudex', serif;
@@ -23,4 +28,8 @@ h2{
 }
 p{
     color: #330A0A;
+}
+strong.daedrique{
+    font-family: "daedrique";
+    font-size: 150%;
 }
